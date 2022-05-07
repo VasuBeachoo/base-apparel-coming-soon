@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+}
+
+.light-text {
+  font-weight: 300;
+}
+
+.regular-text {
+  font-weight: 400;
+}
+
+.bold-text {
+  font-weight: 600;
+}
+
+.desaturated-red {
+  color: hsl(0, 36%, 70%);
+}
+
+.soft-red {
+  color: hsl(0, 93%, 68%);
+}
+
+.dark-red {
+  color: hsl(0, 6%, 24%);
+}
+
+.component-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-image: url("../images/bg-pattern-desktop.svg");
+  background-size: 1010px;
+  min-height: 100vh;
+}
+
+.component {
+  display: flex;
+  flex-direction: row;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px 100px;
+}
+
+.logo {
+  width: 150px;
+  margin-bottom: 40px;
+}
+
+.text-heading {
+  font-size: 52px;
+  letter-spacing: 14px;
+  line-height: 58px;
+  width: 90%;
+  margin-bottom: 15px;
+}
+
+.text-paragraph {
+  font-size: 15px;
+  width: 72%;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.email-input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-input {
+  width: 300px;
+  padding: 13px 18px;
+  border-radius: 25px;
+  border: 2px solid hsl(0, 2%, 81%);
+  opacity: 0.5;
+}
+
+.email-input::placeholder {
+  color: hsl(0, 40%, 42%);
+  letter-spacing: 0.3px;
+  opacity: 0.7;
+}
+
+.email-input:focus {
+  outline: none;
+}
+
+.email-input:invalid {
+  outline: none;
+  border-color: hsl(0, 93%, 68%);
+}
+
+.submit-input {
+  background: url("../images/icon-arrow.svg") hsl(0, 74%, 74%) no-repeat center;
+  border: none;
+  border-radius: 25px;
+  width: 80px;
+  height: 45px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  transition: 0.25s;
+  transform: translateX(-50px);
+}
+
+.submit-input:hover {
+  cursor: pointer;
+  background-color: hsl(0, 75%, 85%);
+}
+
+.img-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-img {
+  width: 500px;
+}
