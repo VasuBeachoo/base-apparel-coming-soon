@@ -101,6 +101,17 @@ body {
   border-color: hsl(0, 93%, 68%);
 }
 
+.error-msg-container {
+  padding-left: 20px;
+  margin-top: 7px;
+}
+
+.error-msg {
+  font-size: 12px;
+  opacity: 0.8;
+  margin: 0;
+}
+
 .submit-input {
   background: url("../images/icon-arrow.svg") hsl(0, 74%, 74%) no-repeat center;
   border: none;
@@ -109,7 +120,7 @@ body {
   height: 45px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
     rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-  transition: 0.25s;
+  transition: 0.2s;
   transform: translateX(-50px);
 }
 
