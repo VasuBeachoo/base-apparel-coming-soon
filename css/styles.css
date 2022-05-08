@@ -71,6 +71,7 @@ body {
 .form-container {
   display: flex;
   flex-direction: row;
+  align-items: flex-start;
 }
 
 .email-input-container {
@@ -79,8 +80,8 @@ body {
 }
 
 .email-input {
-  width: 300px;
-  padding: 13px 18px;
+  width: 250px;
+  padding: 13px 100px 13px 18px;
   border-radius: 25px;
   border: 2px solid hsl(0, 2%, 81%);
   opacity: 0.5;
@@ -110,6 +111,11 @@ body {
   font-size: 12px;
   opacity: 0.8;
   margin: 0;
+}
+
+.error-icon {
+  width: 22px;
+  transform: translate(-160px, 12px);
 }
 
 .submit-input {
